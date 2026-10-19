@@ -1,0 +1,24 @@
+{
+  "name": "culinarylog-relay",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Store-and-forget inbox that carries recipes from an iPhone Shortcut to the CulinaryLog app.",
+  "type": "module",
+  "engines": {
+    "node": "22.x"
+  },
+  "scripts": {
+    "dev": "tsx scripts/dev.ts",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@upstash/redis": "^1.39.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.0",
+    "vitest": "^5.0.5"
+  }
+}

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <title>CulinaryLog</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ea580c"/>
+      <stop offset="1" stop-color="#c2410c"/>
+    </linearGradient>
+  </defs>
+  <rect id="background" width="512" height="512" rx="112" fill="url(#bg)"/>
+  <!-- Cooking pot with steam. Stays inside the maskable safe zone (radius 205 around the centre). -->
+  <g id="art" fill="#fff">
+    <path d="M204 222c-17-17-17-34 0-51s17-34 0-51M256 222c-17-17-17-34 0-51s17-34 0-51M308 222c-17-17-17-34 0-51s17-34 0-51" fill="none" stroke="#fff" stroke-width="24" stroke-linecap="round"/>
+    <rect x="112" y="248" width="288" height="30" rx="15"/>
+    <path d="M136 290h240v52c0 39-31 70-70 70H206c-39 0-70-31-70-70z"/>
+    <rect x="94" y="304" width="58" height="26" rx="13"/>
+    <rect x="360" y="304" width="58" height="26" rx="13"/>
+  </g>
+</svg>
